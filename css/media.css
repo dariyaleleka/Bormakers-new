@@ -1,0 +1,421 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (min-width : 1200px) {
+	.navigation__menu .hidden {
+		display: block!important;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.slider_tags .container {
+		width: 100%;
+		margin: 0;
+	}
+
+	.main-tags ul li {
+		font-family: PFDinDisplayPro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		text-align: center;
+		color: #3F4143;
+		background: #E3E4E5;
+		border: 1px solid #B2B7BA;
+		box-sizing: border-box;
+		border-radius: 0;
+		cursor: pointer;
+		transition: all linear .5s;
+		width: auto;
+		padding: 12px 20px;
+
+	}
+
+	.main-tags ul li:hover {
+		background: rgba(30, 136, 229, 0.1);
+		border: 1px solid #1E88E5;
+		box-sizing: border-box;
+		border-radius: 0;
+	}
+
+	.main-tags {
+		width: max-content;
+	}
+
+	.main-tags ul {
+		width: 100%;
+	}
+
+	.slider_tags {
+		background: #F5F5F5;
+		padding: 0px 0;
+	}
+
+	.main-content-cards {
+		max-width: 750px;
+		width: 100%;
+	}
+
+	.right-aside-content-bookmakers-item-text {
+		width: 100%;
+	}
+
+	.btn-green-book {
+		display: block;
+	}
+	.main-content .container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.right-aside {
+		max-width: 100%;
+		width: 100%;
+		padding: 20px 0px;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: 750px;
+		padding: 0;
+	}
+
+	.logo_block {
+		float: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.banner_block {
+		float: inherit;
+	}
+
+	.search {
+		display: none;
+	}
+	.navigation__menu .hidden {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.container {
+		margin: 0 auto;
+		max-width: 750px;
+		padding: 0;
+	}
+
+	.logo_block {
+		float: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.slider_tags {
+		overflow: auto;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: 750px;
+		padding: 0;
+	}
+
+	.banner_block img {
+		max-width: 100%;
+		width: auto;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.mobile-menu_right a i {
+		font-size: 24px;
+	}
+
+	.yandex-money {
+		padding: 9px 20px!important;
+	}
+	.main-content-cards__item-righ__price-item {
+		width: 50%;
+	}
+
+	.main-content-cards {
+		max-width: 85%;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.banner_block {
+		float: inherit;
+		text-align: center;
+	}
+
+	.banner_block img {
+		max-width: 80%;
+		width: auto;
+	}
+
+	.slider_tags {
+		position: relative;
+	}
+
+	/*.shadow-right {*/
+	/*	display: block;*/
+	/*	position: fixed;*/
+	/*	right: 0;*/
+	/*	top: 0;*/
+	/*	background: linear-gradient(180deg, #B2B7BA 0%, rgba(196, 196, 196, 0) 100%);*/
+	/*	transform: rotate(90deg);*/
+	/*	width: 45px;*/
+	/*	height: 44px;*/
+	/*}*/
+
+	.red-btn {
+		width: 90%;
+		margin: 12px 0;
+	}
+
+	.main-content-cards__item {
+		max-width: 700px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.mobile {
+		display: flex;
+		align-items: center;
+
+	}
+
+	.desc-title {
+		display: none;
+	}
+	.mobile-title {
+		display: block;
+		font-style: normal;
+		font-weight: bold!important;
+		font-size: 18px!important;
+		line-height: 22px!important;
+		text-align: center;
+
+	}
+
+	.button-green {
+		background: #1E88E5;
+	}
+
+	.mobile-card {
+		width: 27%;
+		margin: 10px;
+	}
+
+	.main-content-cards__item {
+		max-width: 750px;
+		width: 100%;
+	}
+
+	.mobile-hidden {
+		display: none;
+	}
+
+	.transparent-btn, .blue-btn {
+		display: none;
+	}
+
+	.main-content-cards__item-left-buttons {
+		display: none;
+	}
+
+	.main-content-cards__item-left {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+
+	}
+
+	.mobile-menu__top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.mobile-menu_right {
+		float: right;
+		display: flex;
+		align-items: center;
+	}
+
+	.mobile-menu_title h2 {
+		font-family: PFDinDisplayPro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+		color: #242526;
+		margin: 15px;
+	}
+
+	.mobile-menu_right a i {
+		color: rgba(154, 157, 159, 1)
+	;
+	}
+
+	.navigation-mob-menu {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 44px;
+		height: auto;
+		padding: 10px;
+		background: #fff;
+	}
+
+	.navigation-mob-menu nav {
+		width: 100%;
+	}
+
+
+	.navigation-mob-menu ul {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.navigation-mob-menu ul li {
+		padding: 10px;
+	}
+
+	.mobile-menu {
+		width: 100%;
+		position: relative;
+
+	}
+
+	.container {
+		margin: 0 auto;
+		/*max-width: 600px;*/
+		max-width: fit-content;
+		padding: 0;
+	}
+
+	.navigation .container {
+		display: none;
+	}
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.right-aside {
+		max-width: 100%;
+		width: 100%;
+		padding: 20px 16px;
+	}
+
+	.main-content-cards__item {
+		max-width: 377px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.banner__info h1 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+	.banner__info p {
+		font-size: 16px;
+		line-height: 26px;
+		padding: 0 14px;
+	}
+
+	.banner_block__text {
+		overflow-y: auto;
+		width: 100%;
+		padding: 20px 0;
+		height: 260px;
+	}
+
+	.banner__info {
+		overflow-y: scroll;
+	}
+
+
+	.main-header-top {
+		display: none;
+	}
+
+	.logo_block_section {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
